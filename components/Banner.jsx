@@ -8,7 +8,7 @@ export default function Banner() {
 
     const handleClaim = () => {
         setIsOpen(false);
-        toast.success('Coupon copied to clipboard!');
+        toast.success('Coupon copied');
         navigator.clipboard.writeText('NEW20');
     };
 
